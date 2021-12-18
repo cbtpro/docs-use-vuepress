@@ -1,0 +1,32 @@
+{
+  "name": "docs-use-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-beta.28",
+    "path": "^0.12.7",
+    "vuepress": "^2.0.0-beta.28"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cbtpro/docs-use-vuepress.git"
+  },
+  "keywords": [
+    "vue-press",
+    "docs",
+    "blog"
+  ],
+  "author": "陈碧滔",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbtpro/docs-use-vuepress/issues"
+  },
+  "homepage": "https://github.com/cbtpro/docs-use-vuepress#readme"
+}
